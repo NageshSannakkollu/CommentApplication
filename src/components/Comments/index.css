@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.app-container {
+  padding: 80px 50px;
+}
+
+.inside-app-container {
+}
+
+.inputs {
+  margin-top: 20px;
+  padding: 8px;
+}
+.form-image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+}
+
+.add-comment-button {
+  cursor: pointer;
+  outline: none;
+  padding: 6px 12px;
+  height: 30px;
+  width: 160px;
+  margin-top: 20px;
+}
+
+.comments-pic {
+  width: 48%;
+  height: 300px;
+}
+
+.horizontal-line {
+  border: 1px solid #000;
+  margin-top: 30px;
+}
+
+.list-of-comments {
+  display: flex;
+  align-items: center;
+}
+
+.length-of-comments {
+  height: 30px;
+  width: 30px;
+  border: 0px solid #000;
+  color: #ffffff;
+  background-color: #0ea5e9;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 10px;
+}
